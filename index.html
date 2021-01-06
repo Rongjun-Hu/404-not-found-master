@@ -29,6 +29,8 @@
         padding: 0;
         box-sizing: border-box;
         font-family: "Poppins", sans-serif;
+        max-width: 1440px;
+        /* max-height: 1080px; */
         /* background: #333333; */
       }
 
@@ -36,7 +38,7 @@
         position: absolute;
         width: 226px;
         height: 17px;
-        left: 850px;
+        left: 45%;
         top: 870px;
         font-family: Montserrat;
         font-style: normal;
@@ -48,10 +50,10 @@
 
       img {
         position: absolute;
-        width: 550px;
-        left: 15%;
+        width: 450px;
+        left: 5%;
         right: 57.21%;
-        top: 19%;
+        top: 25%;
         bottom: 34.03%;
       }
 
@@ -68,7 +70,7 @@
         position: absolute;
         width: 586px;
         height: 190px;
-        left: 1100px;
+        left: 50%;
         top: 100px;
       }
 
@@ -86,7 +88,7 @@
         position: absolute;
         width: 381px;
         height: 108px;
-        left: 1100px;
+        left: 50%;
         top: 385px;
       }
 
@@ -108,7 +110,7 @@
         position: absolute;
         width: 216px;
         height: 68px;
-        left: 1100px;
+        left: 50%;
         top: 600px;
         background: #333333;
         height: 68px;
@@ -120,6 +122,109 @@
         position: absolute;
         left: 28px;
         top: 10px;
+      }
+
+      @media screen and (max-width: 1060px) {
+        .content-heading,
+        .content-text,
+        .content-btn {
+          left: 55%;
+        }
+
+        .content-text {
+          top: 350px;
+        }
+        .content-heading p {
+          font-size: 60px;
+        }
+      }
+
+      @media screen and (max-width: 955px) {
+        .content-heading,
+        .content-text,
+        .content-btn {
+          left: 65%;
+        }
+        footer {
+          left: 55%;
+        }
+      }
+
+      @media screen and (max-width: 780px) {
+        .content-heading,
+        .content-text,
+        .content-btn {
+          left: 75%;
+        }
+        footer {
+          left: 65%;
+        }
+      }
+
+      @media screen and (max-width: 668px) {
+        .content-heading,
+        .content-text,
+        .content-btn {
+          left: 85%;
+        }
+
+        footer {
+          left: 80%;
+        }
+      }
+      @media screen and (max-width: 575px) {
+        footer {
+          top: 1050px;
+          left: 50%;
+        }
+        img {
+          left: 25%;
+        }
+
+        .content-heading {
+          top: 75%;
+          left: 20%;
+        }
+
+        .content-heading p {
+          font-size: 48px;
+          /* width: 350px; */
+        }
+
+        .content-text {
+          top: 95%;
+          left: 20%;
+          /* width: 328px; */
+        }
+
+        .content-btn {
+          top: 118%;
+          left: 20%;
+        }
+      }
+      @media screen and (max-width: 375px) {
+        .content-heading {
+          left: 25%;
+        }
+        .content-heading p {
+          width: 100%;
+          font-size: 60px;
+        }
+
+        .content-text {
+          top: 95%;
+          left: 25%;
+        }
+
+        .content-btn {
+          top: 120%;
+          left: 25%;
+        }
+
+        footer {
+          top: 140%;
+          left: 70%;
+        }
       }
     </style>
   </head>
