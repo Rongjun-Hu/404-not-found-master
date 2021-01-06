@@ -28,68 +28,117 @@
         font-family: "Poppins", sans-serif;
       }
 
-      ul {
-        padding-left: 24px;
+      footer {
+        position: absolute;
+        width: 226px;
+        height: 17px;
+        left: 607px;
+        top: 950px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
       }
 
-      li {
-        margin-bottom: 8px;
+      img {
+        position: absolute;
+        width: 550px;
+        left: 5.35%;
+        right: 57.21%;
+        top: 24.54%;
+        bottom: 34.03%;
       }
 
-      .welcome {
-        max-width: 800px;
-        margin: 0 auto;
+      .not-found {
+        width: 100%;
       }
 
-      .welcome-text {
-        margin-top: 30vh;
-        font-weight: 500;
+      .not-found-title {
+        margin-top: 40px;
+        margin-left: 77px;
       }
 
-      .welcome-text p {
-        font-size: 1rem;
-        font-weight: 400;
+      .content-heading {
+        position: absolute;
+        width: 586px;
+        height: 190px;
+        left: 735px;
+        top: 200px;
       }
 
-      .welcome-text h1 {
-        font-size: 1.5rem;
+      .content-heading p {
+        font-family: Space Mono;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 64px;
+        line-height: 95px;
+        letter-spacing: -0.035em;
+        color: #333333;
       }
 
-      .welcome-text a {
-        color: #f7542e;
+      .content-text {
+        position: absolute;
+        width: 381px;
+        height: 108px;
+        left: 736px;
+        top: 495px;
+      }
+
+      .content-text p {
+        /* font-family: Space Mono; */
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 36px;
+        letter-spacing: -0.035em;
+        color: #4f4f4f;
+      }
+
+      .content-btn {
+        position: absolute;
+        width: 216px;
+        height: 68px;
+        left: 740px;
+        top: 700px;
+        background: #333333;
+        height: 68px;
+      }
+
+      .content-btn p {
+        text-transform: uppercase;
+        color: #fff;
+        position: absolute;
+        left: 28px;
+        top: 10px;
       }
     </style>
   </head>
   <body>
-    <div class="welcome">
-      <div class="welcome-text">
-        <h1>
-          Welcome to
-          <a href="https://devchallenges.io/" target="_blank"
-            >devchallenges.io</a
-          >
-        </h1>
-
-        <p>
-          If you have any questions, don't hesitate to ask on Discord. Here are
-          7 general steps to complete the challenge:
-        </p>
+    <div class="not-found">
+      <div class="not-found-title">
+        <h3>404 NOT FOUND</h3>
       </div>
 
-      <ul>
-        <li><b>Step 1:</b> Create a new repository on github</li>
-        <li><b>Step 2:</b> Copy resources, README.md to your repository</li>
-        <li>
-          <b>Step 3:</b> Login to Figma to checkout font, color, spacing,..
-        </li>
-        <li><b>Step 4:</b> Complete all user stories</li>
-        <li><b>Step 5:</b> Update README.md</li>
-        <li><b>Step 6:</b> Deploy your app and submit your solution</li>
-        <li>
-          <b>Step 7:</b> Share your solution on Discord, Twitter and other
-          platforms to ask for feedback
-        </li>
-      </ul>
+      <div class="not-found-content">
+        <img src="./Scarecrow.png" alt="" />
+        <div class="content-heading">
+          <p>I have bad news for you</p>
+        </div>
+        <div class="content-text">
+          <p>
+            The page you are looking for might be removed or is temporarily
+            unavailable
+          </p>
+        </div>
+        <div class="content-btn">
+          <p>Back to home page</p>
+        </div>
+      </div>
     </div>
+
+    <footer>
+      <p>Peter_Hu &copy; DevChallenges.io</p>
+    </footer>
   </body>
 </html>
