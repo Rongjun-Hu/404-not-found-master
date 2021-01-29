@@ -91,7 +91,9 @@ img {
   left: 50%;
   top: 600px;
   background: #333333;
+  color: #fff;
   height: 68px;
+  cursor: pointer;
 }
 
 .content-btn p {
