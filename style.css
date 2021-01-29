@@ -130,7 +130,7 @@ img {
   }
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 789px) {
   .content-heading,
   .content-text,
   .content-btn {
@@ -152,22 +152,22 @@ img {
     left: 80%;
   }
 }
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 640px) {
   footer {
-    top: 1050px;
-    left: 50%;
+    top: 140%;
+    left: 70%;
   }
   img {
     left: 25%;
   }
 
   .content-heading {
-    top: 75%;
+    top: 70%;
     left: 20%;
   }
 
   .content-heading p {
-    font-size: 48px;
+    font-size: 60px;
     /* width: 350px; */
   }
 
@@ -184,16 +184,22 @@ img {
 }
 @media screen and (max-width: 375px) {
   .content-heading {
+    font-size: 100px;
+    top: 65%;
     left: 25%;
   }
   .content-heading p {
     width: 100%;
-    font-size: 60px;
+    font-size: 70px;
   }
 
   .content-text {
     top: 95%;
     left: 25%;
+  }
+
+  .content-text p {
+    font-size: 30px;
   }
 
   .content-btn {
